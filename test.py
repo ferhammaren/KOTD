@@ -2,7 +2,7 @@ import json
 import random
 #kanjiList
 kotd=[]
-with open('E:/Projects/KOTD/dict/JMDict.json',encoding="utf8") as f:
+with open('E:/Projects/KOTD//KOTD/dict/JMDict.json',encoding="utf8") as f:
     data=json.load(f)
 
 rndK=random.choice(data)
